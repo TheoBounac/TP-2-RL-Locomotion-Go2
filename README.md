@@ -5,9 +5,10 @@
  <div align="justify">
 Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journées thématiques sur les robots quadrupèdes et humanoïdes afin de favoriser le partage de connaissances et les retours d’expérience autour de ces robots. Cette journée est cofinancée par le réseau 2RM et INRIA.
 </div>
+
  ---
  
-# TP1 — Arrêt d’urgence sans fil pour robots Unitree Go2/G1
+# TP2 — RL pour la locomotion du robots Unitree Go2
 
  <p align="center">
   <img src="images/Tp1.png" width="300">
