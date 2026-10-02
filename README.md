@@ -150,7 +150,7 @@ Vous devriez voir les logs :
 ---
 <a id="Déploiement"></a>
 # 🤖 Partie 2: Déploiement 
-## 1️⃣ 🏗️ Lancer le simulateur MuJoCo
+## 1️⃣ Lancer le simulateur MuJoCo
 
 Dans le conteneur :
 
@@ -245,7 +245,7 @@ Au début, le fichier de déploiement ne fonctionne pas correctement tant que vo
   <br>
  </p>
  
-## 4️⃣ 🚀 Terminer le workshop
+## 4️⃣ Réaliser les tâches du TP
 
 La préparation est maintenant terminée.
 
