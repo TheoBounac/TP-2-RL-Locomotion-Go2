@@ -185,7 +185,7 @@ Consultez le guide des commandes de MuJoCo :
  </p>
  
  # Important 
- Ici, MuJoCo fonctionne exactement comme en conditions réelles : vous ne devez pas fermer la fenêtre MuJoCo. Cela fonctionne comme si vous aviez le robot à côté de vous. Réinitialisez simplement le robot chaque fois que vous lancez le fichier `deploy.py` pendant le workshop.
+ Ici, MuJoCo fonctionne exactement comme en conditions réelles : vous ne devez pas fermer la fenêtre MuJoCo. Cela fonctionne comme si vous aviez le robot à côté de vous. Réinitialisez simplement le robot chaque fois que vous lancez le fichier `deploy.py` pendant le workshop, en appuyant sur le bouton reset entouré en rouge dans la précédente image.
  
 ---
 
