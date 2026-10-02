@@ -93,7 +93,7 @@ SUMMER-SCHOOL-RL/
 ---
 <a id="Installation"></a>
 # 📝 Installation guide
-Pour ce tutoriel, les participants doivent installer l'image Docker déjà construite. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & adrien.guenard@loria.fr.
+Pour ce tutoriel, les participants doivent installer l'image Docker déjà construite. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. 
 
 **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
