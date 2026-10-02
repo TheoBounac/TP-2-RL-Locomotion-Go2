@@ -94,19 +94,18 @@ SUMMER-SCHOOL-RL/
 # 📝 Installation guide
 Pour ce tutoriel, les participants doivent installer l'image Docker déjà construite. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & adrien.guenard@loria.fr.
 
-Sinon, vous pouvez également installer uniquement ce workshop en suivant ces instructions : **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
+**🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
-Dans tous les cas, une fois Docker installé, vous pouvez essayer de le lancer :
+# 📝 🏋️ Partie 1: Entraînement (MJLab)
 
-🏋️ Entraînement (MJLab)
 
 **Partie 1** : [📘 Instructions d’entraînement](doc/training_instruction.md)
 
-🤖 Déploiement
+# 📝 🤖 Partie 2:  Déploiement (MuJoCo)
 
 **Partie 2** : [📘 Instructions de déploiement](doc/deploy_instruction.md)
 
-
+Dans tous les cas, une fois Docker installé, vous pouvez essayer de le lancer :
 ---
 
 ##  Liens
