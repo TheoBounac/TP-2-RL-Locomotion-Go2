@@ -97,20 +97,20 @@ Pour ce tutoriel, les participants doivent installer l'image Docker déjà const
 
 **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
+Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
+
 ---
 <a id="Entraînement"></a>
 # 🏋️ Partie 1: Entraînement 
-Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
 
 Dans le conteneur, allez dans l’espace de travail MJLab :
-
 ```bash
 cd /opt/mjlab
 ```
 
 Vous devriez voir :
 <p align="center">
-  <img src="doc/docker1.png" width="900">
+  <img src="doc/docker1.png" width="600">
 </p>
 
 ---
@@ -123,13 +123,13 @@ uv run play Mjlab-Velocity-Flat-Unitree-Go2 --agent random
 
 Vous devriez voir :
 <p align="center">
-  <img src="doc/docker2.png" width="900">
-  <img src="doc/docker3.png" width="900">
+  <img src="doc/docker2.png" width="600">
+  <img src="doc/docker3.png" width="600">
 </p>
 
 ---
 
-Vous pouvez essayer de lancer le script d’entraînement, qui est incomplet (les étudiants le compléteront pendant la summer school).
+Vous pouvez essayer de lancer le script d’entraînement, qui est incomplet (sections à décommenter pendant le tutoriel).
 
 Lancez l’entraînement :
 
@@ -139,12 +139,12 @@ uv run train Mjlab-Velocity-Flat-Unitree-Go2 --env.scene.num-envs 1024
 
 Entrez le choix 3 :
 <p align="center">
-  <img src="doc/docker4.png" width="900">
+  <img src="doc/docker4.png" width="600">
 </p>
 
 Vous devriez voir les logs :
 <p align="center">
-  <img src="doc/docker5.png" width="900">
+  <img src="doc/docker5.png" width="600">
 </p>
 
 ---
