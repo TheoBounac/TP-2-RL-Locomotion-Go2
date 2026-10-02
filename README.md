@@ -27,7 +27,7 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
 
 <table align="center" style="border-collapse:collapse;">
 <th style="width:30%; text-align:center;">
-  <div style="display:inline-block; width:100px;">Train on Mjlab</div>
+  <div style="display:inline-block; width:100px;">Entraînement sur Mjlab</div>
 </th>
 
   <tr>
@@ -40,7 +40,7 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
 
 <table align="center" style="border-collapse:collapse;">
 <th style="width:30%; text-align:center;">
-  <div style="display:inline-block; width:200px;">Deploy on Mujoco</div>
+  <div style="display:inline-block; width:200px;">Déploiement sur Mujoco</div>
 </th>
 
   <tr>
