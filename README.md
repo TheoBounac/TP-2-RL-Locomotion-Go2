@@ -92,9 +92,7 @@ SUMMER-SCHOOL-RL/
 
 
 # 📝 Installation guide
-Pour le tutoriel de la summer school, les étudiants doivent installer ce workshop à l’aide de Docker. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & ioannis.loizou@inria.fr.
-
-Vous devez normalement suivre les instructions disponibles ici : [https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main](https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main).
+Pour ce tutoriel, les participants doivent installer l'image Docker déjà construite. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & adrien.guenard@loria.fr.
 
 Sinon, vous pouvez également installer uniquement ce workshop en suivant ces instructions : **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
