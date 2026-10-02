@@ -6,6 +6,9 @@
 Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journées thématiques sur les robots quadrupèdes et humanoïdes afin de favoriser le partage de connaissances et les retours d’expérience autour de ces robots. Cette journée est cofinancée par le réseau 2RM et INRIA.
 </div>
 
+ ---
+
+ 
 # TP2 — RL pour la locomotion du robots Unitree Go2
 
 Ce TP est le second TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
