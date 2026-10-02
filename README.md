@@ -51,17 +51,6 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
   </tr>
 </table>
 
-## 📑 Sommaire
-
-1. [Principe de fonctionnement du système](#principe)
-2. [Matériel nécessaire](#composants)
-3. [Montage de l'Emetteur](#transmetteur)
-4. [Montage du Récepteur](#recepteurvrai)
-5. [Fonctionnement logique](#logique)
-6. [Test avec une LED](#test-led)
-7. [Test sur le robot](#test-robot)
-
-
 ---
 ## 📁 Architecture
 
