@@ -110,7 +110,7 @@ cd /opt/mjlab
 
 Vous devriez voir :
 <p align="center">
-  <img src="doc/docker1.png" width="600">
+  <img src="doc/docker1.png" width="800">
 </p>
 
 ---
@@ -123,8 +123,8 @@ uv run play Mjlab-Velocity-Flat-Unitree-Go2 --agent random
 
 Vous devriez voir :
 <p align="center">
-  <img src="doc/docker2.png" width="700">
-  <img src="doc/docker3.png" width="700">
+  <img src="doc/docker2.png" width="800">
+  <img src="doc/docker3.png" width="800">
 </p>
 
 ---
@@ -139,12 +139,12 @@ uv run train Mjlab-Velocity-Flat-Unitree-Go2 --env.scene.num-envs 1024
 
 Entrez le choix 3 :
 <p align="center">
-  <img src="doc/docker4.png" width="700">
+  <img src="doc/docker4.png" width="800">
 </p>
 
 Vous devriez voir les logs :
 <p align="center">
-  <img src="doc/docker5.png" width="700">
+  <img src="doc/docker5.png" width="800">
 </p>
 
 ---
