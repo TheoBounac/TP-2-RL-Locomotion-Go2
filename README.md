@@ -17,13 +17,10 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
 
 ## 📑 Sommaire
 
-1. [Principe de fonctionnement du système](#principe)
-2. [Matériel nécessaire](#composants)
-3. [Montage de l'Emetteur](#transmetteur)
-4. [Montage du Récepteur](#recepteurvrai)
-5. [Fonctionnement logique](#logique)
-6. [Test avec une LED](#test-led)
-7. [Test sur le robot](#test-robot)
+1. [Architecture](#principe)
+2. [Installation guide](#composants)
+3. [Partie 1: Entraînement](#transmetteur)
+4. [Partie 2: Déploiement ](#recepteurvrai)
 
 **Ce dépôt fournit un framework Python pour l’entraînement et le déploiement du robot quadrupède Unitree Go2. Il est conçu pour entraîner des politiques par apprentissage par renforcement (Reinforcement Learning) et les déployer dans MuJoCo de la même manière qu’elles le seraient sur le robot réel.**
 
@@ -106,7 +103,7 @@ Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
 (MJLab)
 [📘 Instructions d’entraînement](doc/training_instruction.md)
 
-# 🤖 Partie 2:  Déploiement 
+# 🤖 Partie 2: Déploiement 
 (MuJoCo)
 [📘 Instructions de déploiement](doc/deploy_instruction.md)
 
