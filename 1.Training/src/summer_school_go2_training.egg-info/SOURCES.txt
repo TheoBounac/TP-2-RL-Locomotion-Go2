@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/summer_school_go2_training.egg-info/PKG-INFO
+src/summer_school_go2_training.egg-info/SOURCES.txt
+src/summer_school_go2_training.egg-info/dependency_links.txt
+src/summer_school_go2_training.egg-info/top_level.txt
+src/unitree_go2/__init__.py
+src/unitree_go2/go2_constants.py
+src/unitree_go2_velocity/__init__.py
+src/unitree_go2_velocity/custom_mdp.py
+src/unitree_go2_velocity/env_cfg.py
+src/unitree_go2_velocity/rl_cfg.py

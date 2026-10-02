@@ -1,0 +1,15 @@
+.git
+__pycache__/
+*.pyc
+.venv/
+env/
+build/
+dist/
+logs/
+runs/
+outputs/
+.cache/
+*.bag
+*.db3
+*.mp4
+*.avi

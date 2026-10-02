@@ -1,0 +1,7 @@
+numpy==1.26.0
+mujoco==3.2.7
+pygame==2.6.1
+rich==14.0.0
+opencv-python
+scipy
+torch

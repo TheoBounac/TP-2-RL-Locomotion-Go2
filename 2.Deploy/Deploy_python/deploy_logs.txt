@@ -1,0 +1,5 @@
+13:45:21 | Logging started. Open another terminal and run: tail -f 2.Deploy_python/deploy_logs.txt
+13:45:21 | [step 000000] Waiting for the [START] signal.
+13:45:35 | [step 000000] Moving to default pos.
+13:45:37 | [step 000000] Enter default pos state.
+13:45:37 | [step 000000] Waiting for the Button [A] signal.

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+.env
+.env.*
+*.log
+*.bin
+*.onnx
+
+/doc/gif1.gif
+
+# Large media
+/doc/gif1.gif

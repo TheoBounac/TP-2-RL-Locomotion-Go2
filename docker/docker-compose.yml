@@ -1,0 +1,32 @@
+services:
+  summer-school-rl:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: summer-school-rl:latest
+    container_name: summer-school-rl
+    working_dir: /workspace/SUMMER-SCHOOL-RL
+    network_mode: host
+    ipc: host
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - PYTHONUNBUFFERED=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - ..:/workspace/SUMMER-SCHOOL-RL
+      - ../1.Training/src/unitree_go2_velocity:/opt/mjlab/src/mjlab/tasks/velocity/config/go2
+      - ../logs:/opt/mjlab/logs
+      - ../wandb:/opt/mjlab/wandb
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
+    command: bash
