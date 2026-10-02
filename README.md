@@ -96,12 +96,12 @@ Pour ce tutoriel, les participants doivent installer l'image Docker déjà const
 
 **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
-# 📝 🏋️ Partie 1: Entraînement (MJLab)
+# 🏋️ Partie 1: Entraînement (MJLab)
 
 
 **Partie 1** : [📘 Instructions d’entraînement](doc/training_instruction.md)
 
-# 📝 🤖 Partie 2:  Déploiement (MuJoCo)
+# 🤖 Partie 2:  Déploiement (MuJoCo)
 
 **Partie 2** : [📘 Instructions de déploiement](doc/deploy_instruction.md)
 
