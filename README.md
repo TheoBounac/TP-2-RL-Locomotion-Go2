@@ -92,28 +92,28 @@ SUMMER-SCHOOL-RL/
 
 
 # 📝 Installation guide
-For the summer school tutorial, students are required to install this workshop using Docker. Please follow this guide. It is designed so that you normally only need to copy and paste the commands into the terminal. If you have any trouble, please contact us theo.bounaceur@loria.fr & ioannis.loizou@inria.fr.
+Pour le tutoriel de la summer school, les étudiants doivent installer ce workshop à l’aide de Docker. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & ioannis.loizou@inria.fr.
 
-You should normally follow the instructions at [https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main](https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main).
+Vous devez normalement suivre les instructions disponibles ici : [https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main](https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main).
 
-Otherwise, you can also install only this workshop following this instruction : **🐳 Docker** : [📘 Docker Installation](doc/Docker.md)
+Sinon, vous pouvez également installer uniquement ce workshop en suivant ces instructions : **🐳 Docker** : [📘 Installation de Docker](doc/Docker.md)
 
-In any case, once the docker is installed you can try to launch it:
+Dans tous les cas, une fois Docker installé, vous pouvez essayer de le lancer :
 
-🏋️ Training (MJLab)
+🏋️ Entraînement (MJLab)
 
-**Part 1** : [📘 Training instruction](doc/training_instruction.md)
+**Partie 1** : [📘 Instructions d’entraînement](doc/training_instruction.md)
 
-🤖 Deployment
+🤖 Déploiement
 
-**Part 2** : [📘 Deploy instruction](doc/deploy_instruction.md)
+**Partie 2** : [📘 Instructions de déploiement](doc/deploy_instruction.md)
 
 
 ---
 
-##  Links
+##  Liens
 
-These are the repositories we used for this workshop :
+Voici les dépôts que nous avons utilisés pour ce workshop :
 
 | 🔗 Resources | 📍 Link |
 |--------------|---------|
