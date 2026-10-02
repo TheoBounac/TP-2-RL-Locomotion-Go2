@@ -129,7 +129,7 @@ Vous devriez voir :
 
 ---
 
-Vous pouvez essayer de lancer le script d’entraînement, qui est incomplet (sections à décommenter pendant le tutoriel).
+Vous pouvez ensuite essayer de lancer le script d’entraînement, qui est incomplet (sections à dé-commenter pendant le tutoriel).
 
 Lancez l’entraînement :
 
