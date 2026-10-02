@@ -137,6 +137,7 @@ Laboratory **LORIA** (CNRS / University of Lorraine), Nancy, France
 📫 Contact: theo.bounaceur@loria.fr & ioannis.loizou@inria.fr
 
 **Supervisors / Advisors:**  
-- Adrien Guenard  
-- Cyril Regan
-- Serena Ivaldi  
+- Adrien Guenard, Ingénieur robotique, Loria 
+- Cyril Regan, Ingénieur I.A., Loria
+- Serena Ivaldi, Chercheuse en robotique, Loria
+  
