@@ -191,8 +191,6 @@ Consultez le guide des commandes de MuJoCo :
 
 ## 2️⃣ Ouvrir un second terminal dans le même conteneur
 
-Ouvrir un second terminal dans le même conteneur: 
-
 Sur la machine hôte :
 
 ```bash
