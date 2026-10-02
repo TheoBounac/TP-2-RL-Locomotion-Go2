@@ -1,7 +1,12 @@
 <p align="center">
-  <img src="doc/banniere.png" width="500">
+  <img src="doc/banniere.png" width="1000">
 </p>
 
+ <div align="justify">
+Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journées thématiques sur les robots quadrupèdes et humanoïdes afin de favoriser le partage de connaissances et les retours d’expérience autour de ces robots. Cette journée est cofinancée par le réseau 2RM et INRIA.
+</div>
+
+ ---
  <p align="center">
   <img src="doc/im3.png" width="1000">
   <br>
