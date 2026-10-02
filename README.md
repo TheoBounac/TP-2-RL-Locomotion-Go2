@@ -8,20 +8,19 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
 
  ---
  
-# TP2 — RL pour la locomotion du robots Unitree Go2
+# <h2 align="center">TP2 — RL pour la locomotion du robots Unitree Go2</h2>
 
 Ce TP est le second TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
 
 L'objectif pour les participants est de comprendre et tester un modèle de contrôle entraîné par apprentissage par renforcement pour la locomotion du robot Unitree Go2.
 
 ---
- ---
+
  <p align="center">
   <img src="doc/im3.png" width="1000">
   <br>
  </p>
  
-# <h2 align="center">SUMMER-SCHOOL-RL-WORKSHOP</h2>
 
 **RL Locomotion tutorial with Unitree Go2 in The AI for Human–Robot Interaction summer school which will be held at the Loria and Inria Center at the Université de Lorraine, in Nancy (France) from July 6th to 10th of 2026.**
 
