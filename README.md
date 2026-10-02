@@ -96,7 +96,7 @@ Pour le tutoriel de la summer school, les étudiants doivent installer ce worksh
 
 Vous devez normalement suivre les instructions disponibles ici : [https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main](https://github.com/aixhri-summer-school-2026/docker-tutorials/tree/main).
 
-Sinon, vous pouvez également installer uniquement ce workshop en suivant ces instructions : **🐳 Docker** : [📘 Installation de Docker](doc/Docker.md)
+Sinon, vous pouvez également installer uniquement ce workshop en suivant ces instructions : **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
 Dans tous les cas, une fois Docker installé, vous pouvez essayer de le lancer :
 
