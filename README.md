@@ -15,10 +15,15 @@ Ce TP est le second TP des journées thématiques *robotique quadrupède et huma
 
 L'objectif pour les participants est de comprendre et tester un modèle de contrôle entraîné par apprentissage par renforcement pour la locomotion du robot Unitree Go2.
 
- <p align="center">
-  <img src="doc/im3.png" width="1000">
-  <br>
- </p>
+## 📑 Sommaire
+
+1. [Principe de fonctionnement du système](#principe)
+2. [Matériel nécessaire](#composants)
+3. [Montage de l'Emetteur](#transmetteur)
+4. [Montage du Récepteur](#recepteurvrai)
+5. [Fonctionnement logique](#logique)
+6. [Test avec une LED](#test-led)
+7. [Test sur le robot](#test-robot)
 
 **Ce dépôt fournit un framework Python pour l’entraînement et le déploiement du robot quadrupède Unitree Go2. Il est conçu pour entraîner des politiques par apprentissage par renforcement (Reinforcement Learning) et les déployer dans MuJoCo de la même manière qu’elles le seraient sur le robot réel.**
 
