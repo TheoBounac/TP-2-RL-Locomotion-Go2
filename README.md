@@ -17,10 +17,10 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
 
 ## 📑 Sommaire
 
-1. [Architecture](#principe)
-2. [Installation guide](#composants)
-3. [Partie 1: Entraînement](#transmetteur)
-4. [Partie 2: Déploiement ](#recepteurvrai)
+1. [Architecture](#Architecture)
+2. [Installation guide](#Installation)
+3. [Partie 1: Entraînement](#Entraînement)
+4. [Partie 2: Déploiement ](#Déploiement )
 
 **Ce dépôt fournit un framework Python pour l’entraînement et le déploiement du robot quadrupède Unitree Go2. Il est conçu pour entraîner des politiques par apprentissage par renforcement (Reinforcement Learning) et les déployer dans MuJoCo de la même manière qu’elles le seraient sur le robot réel.**
 
@@ -54,6 +54,7 @@ L'objectif pour les participants est de comprendre et tester un modèle de contr
 </table>
 
 ---
+<a id="Architecture"></a>
 ## 📁 Architecture
 
 ```
@@ -92,17 +93,19 @@ SUMMER-SCHOOL-RL/
 ---
 
 
-
+<a id="Installation"></a>
 # 📝 Installation guide
 Pour ce tutoriel, les participants doivent installer l'image Docker déjà construite. Veuillez suivre ce guide. Il est conçu pour que vous n’ayez normalement qu’à copier-coller les commandes dans le terminal. Si vous rencontrez un problème, veuillez nous contacter : theo.bounaceur@loria.fr & adrien.guenard@loria.fr.
 
 **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
+<a id="Entraînement"></a>
 # 🏋️ Partie 1: Entraînement 
 Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
 (MJLab)
 [📘 Instructions d’entraînement](doc/training_instruction.md)
 
+<a id="Déploiement"></a>
 # 🤖 Partie 2: Déploiement 
 (MuJoCo)
 [📘 Instructions de déploiement](doc/deploy_instruction.md)
