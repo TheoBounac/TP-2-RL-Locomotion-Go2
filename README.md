@@ -102,8 +102,6 @@ Pour ce tutoriel, les participants doivent installer l'image Docker déjà const
 # 🏋️ Partie 1: Entraînement 
 Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
 
-(Make sure you completed the docker installation)
-
 Inside the container, go to the MJLab workspace:
 
 ```bash
@@ -111,7 +109,7 @@ cd /opt/mjlab
 ```
 You should see:
 <p align="center">
-  <img src="docker1.png" width="900">
+  <img src="doc/docker1.png" width="900">
 </p>
 
 ---
@@ -123,8 +121,8 @@ uv run play Mjlab-Velocity-Flat-Unitree-Go2 --agent random
 ```
 You should see:
 <p align="center">
-  <img src="docker2.png" width="900">
-  <img src="docker3.png" width="900">
+  <img src="doc/docker2.png" width="900">
+  <img src="doc/docker3.png" width="900">
 </p>
 
 ---
@@ -138,12 +136,12 @@ uv run train Mjlab-Velocity-Flat-Unitree-Go2 --env.scene.num-envs 1024
 ```
 Enter choice 3:
 <p align="center">
-  <img src="docker4.png" width="900">
+  <img src="doc/docker4.png" width="900">
 </p>
 
 You should see the logs:
 <p align="center">
-  <img src="docker5.png" width="900">
+  <img src="doc/docker5.png" width="900">
 </p>
 
 ---
