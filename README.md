@@ -10,7 +10,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
  
 # TP2 — RL pour la locomotion du robots Unitree Go2
 
-Ce TP est le second TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Ce TP à été préparé avec l'aide de Ioannis LOIZOU, doctorant au Loria de l'équipe Hucebot.
+Ce TP est le second TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
 
 L'objectif pour les participants est de comprendre et tester un modèle de contrôle entraîné par apprentissage par renforcement pour la locomotion du robot Unitree Go2.
 
