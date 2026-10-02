@@ -9,7 +9,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
  ---
 
  
-# TP2 — RL pour la locomotion du robots Unitree Go2
+# TP2 — RL pour la locomotion du robot Unitree Go2
 
 Ce TP est le second TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
 
