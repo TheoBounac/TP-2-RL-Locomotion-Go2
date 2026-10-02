@@ -160,14 +160,14 @@ cd /workspace/SUMMER-SCHOOL-RL/2.Deploy
 python Unitree_mujoco/simulate_python/unitree_mujoco.py
 ```
  <p align="center">
-  <img src="doc/deploy1.png" width="900">
+  <img src="doc/deploy1.png" width="800">
   <br>
  </p>
  
 Vous devriez voir :
 
  <p align="center">
-  <img src="doc/leve.png" width="900">
+  <img src="doc/leve.png" width="800">
   <br>
  </p>
  <p align="center">
@@ -180,7 +180,7 @@ Appuyez sur le bouton <kbd>RESET</kbd> dans le menu à gauche pour réinitialise
 
 Consultez le guide des commandes de MuJoCo :
  <p align="center">
-  <img src="doc/bonne.png" width="900">
+  <img src="doc/bonne.png" width="800">
   <br>
  </p>
  
@@ -209,7 +209,7 @@ Exemple :
 docker exec -it docker-summer-school-rl-run-8a7194d5a1f7 bash
 ```
  <p align="center">
-  <img src="doc/deploy2.png" width="1100">
+  <img src="doc/deploy2.png" width="900">
   <br>
  </p>
  
@@ -228,7 +228,7 @@ ASSUREZ-VOUS QUE LE ROBOT EST ALLONGÉ ET RÉINITIALISÉ, AVEC L’ÉLASTIQUE D�
 
 Vous devriez voir :
  <p align="center">
-  <img src="doc/fill.png" width="1100">
+  <img src="doc/fill.png" width="900">
   <br>
  </p>
  
@@ -254,7 +254,7 @@ Pendant la semaine de la summer school, les étudiants devront réaliser les dif
 Lorsque vous aurez terminé toutes les tâches, le robot devrait marcher et vous devriez voir :
 
  <p align="center">
-  <img src="doc/im2.png" width="1100">
+  <img src="doc/im2.png" width="900">
   <br>
  </p>
 
