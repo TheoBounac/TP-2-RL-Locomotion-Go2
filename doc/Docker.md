@@ -83,21 +83,6 @@ Vous devriez maintenant être à l’intérieur du conteneur Docker :
 ```bash
 root@xxxxx:/workspace/SUMMER-SCHOOL-RL#
 ```
-
-## 4️⃣ Construire l’image Docker
-
-```bash
-docker compose -f docker/docker-compose.yml build
-```
-
-> **Remarque :** La première construction de l’image peut prendre plusieurs minutes (30 min à 1 h), car elle installe MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS ainsi que toutes les dépendances Python.
-
-> **Dépannage :** Si `uv` échoue à cause d’un délai d’attente réseau, augmentez le délai HTTP :
->
-> ```bash
-> export UV_HTTP_TIMEOUT=300s
-> ```
-
 ---
 
 Vous pouvez maintenant tester la Partie 1 et la Partie 2 afin de vérifier que tout fonctionne correctement.
