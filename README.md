@@ -97,8 +97,8 @@ Pour ce tutoriel, les participants doivent installer l'image Docker déjà const
 
 **🐳 Docker** : [📘 Installation avec Docker](doc/Docker.md)
 
-Une fois le Docker téléchargé, vous pouvez essayer de le lancer.
 
+Une fois le Docker téléchargé, vous pouvez essayer de le lancer (Le jour du TP Mardi 13 octobre 2026).
 ---
 <a id="Entraînement"></a>
 # 🏋️ Partie 1: Entraînement 
