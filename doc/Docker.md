@@ -25,7 +25,7 @@ docker --version
 docker compose version
 ```
 
----
+
 
 ## 2️⃣ Cloner le dépôt
 
@@ -34,7 +34,7 @@ git clone https://github.com/TheoBounac/TP-2-RL-Locomotion-Go2
 cd TP-2-RL-Locomotion-Go2
 ```
 
----
+
 
 ## 3️⃣ Autoriser Docker à accéder à l’affichage graphique
 
@@ -44,7 +44,7 @@ xhost +local:docker
 
 Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement depuis le conteneur.
 
----
+
 
 ## 4️⃣ Télécharger l’image Docker
 
@@ -68,7 +68,7 @@ docker compose -f docker/docker-compose.yml build
 > export UV_HTTP_TIMEOUT=300s
 > ```
 
----
+
 
 ## 5️⃣ Lancer le conteneur
 
