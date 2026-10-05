@@ -81,8 +81,8 @@ docker compose -f docker/docker-compose.yml run --rm tp-rl-2rm
 Vous devriez maintenant être à l’intérieur du conteneur Docker :
 
 ```bash
-root@xxxxx:/workspace/SUMMER-SCHOOL-RL#
+root@xxxxx:/workspace/TP-RL-2RM#
 ```
 ---
 
-Vous pouvez maintenant tester la Partie 1 et la Partie 2 afin de vérifier que tout fonctionne correctement.
+
