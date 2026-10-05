@@ -46,18 +46,13 @@ Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement dep
 
 ---
 
-## 4️⃣ Construire l’image Docker
+## 4️⃣ Télécharger l’image Docker
 
-```bash
-docker compose -f docker/docker-compose.yml build
-```
-
-> **Remarque :** La première construction de l’image peut prendre plusieurs minutes (30 min à 1 h), car elle installe MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS ainsi que toutes les dépendances Python.
-
-> **Dépannage :** Si `uv` échoue à cause d’un délai d’attente réseau, augmentez le délai HTTP :
 >
 > ```bash
-> export UV_HTTP_TIMEOUT=300s
+> docker pull adriengloria/tutorl:latest
+> docker tag adriengloria/tutorl:latest tp-rl-2rm:latest
+> docker rmi adriengloria/tutorl:latest
 > ```
 
 ---
@@ -88,6 +83,20 @@ Vous devriez maintenant être à l’intérieur du conteneur Docker :
 ```bash
 root@xxxxx:/workspace/SUMMER-SCHOOL-RL#
 ```
+
+## 4️⃣ Construire l’image Docker
+
+```bash
+docker compose -f docker/docker-compose.yml build
+```
+
+> **Remarque :** La première construction de l’image peut prendre plusieurs minutes (30 min à 1 h), car elle installe MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS ainsi que toutes les dépendances Python.
+
+> **Dépannage :** Si `uv` échoue à cause d’un délai d’attente réseau, augmentez le délai HTTP :
+>
+> ```bash
+> export UV_HTTP_TIMEOUT=300s
+> ```
 
 ---
 
