@@ -30,8 +30,8 @@ docker compose version
 ## 2️⃣ Cloner le dépôt
 
 ```bash
-git clone https://github.com/aixhri-summer-school-2026/Tutorial_06_RL_Locomotion.git
-cd SUMMER-SCHOOL-RL
+git clone https://github.com/TheoBounac/TP-2-RL-Locomotion-Go2
+cd TP-2-RL-Locomotion-Go2
 ```
 
 ---
