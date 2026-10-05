@@ -1,121 +1,127 @@
-# 🤖 Deployment
-(Make sure you completed the docker installation)
+# 🤖 Partie 2: Déploiement 
 
-## 1️⃣ 🏗️ Launch the MuJoCo simulator
+## 1️⃣ Lancer le simulateur MuJoCo
 
-Inside the container:
+Dans le conteneur :
 
-```bash
+```bash id="mujoco-launch"
 cd /workspace/SUMMER-SCHOOL-RL/2.Deploy
 
 python Unitree_mujoco/simulate_python/unitree_mujoco.py
 ```
- <p align="center">
-  <img src="../doc/deploy1.png" width="900">
-  <br>
- </p>
- 
-You should see :
 
- <p align="center">
-  <img src="../doc/leve.png" width="900">
+<p align="center">
+  <img src="../doc/deploy1.png" width="800">
   <br>
- </p>
- <p align="center">
-The robot is hold by an invisible elastic band :
-  
-Press <kbd>9</kbd> to activate or deactivate the elastic band. When activated you can change the force of the elastic: SPAM <kbd>7</kbd> to raise, and SPAM <kbd>8</kbd>  to lower the robot.
+</p>
+ 
+Vous devriez voir :
+
+<p align="center">
+  <img src="../doc/leve.png" width="800">
+  <br>
 </p>
 
-Press <kbd>RESET</kbd> button in the menu at the left, to reset the robot position (make sure the elastic band is deactivate by pressing <kbd>9</kbd> on your keyboard).
+<p align="center">
+Le robot est maintenu par un élastique invisible :
+  
+Appuyez sur <kbd>9</kbd> pour activer ou désactiver l’élastique. Lorsqu’il est activé, vous pouvez modifier la force de l’élastique : appuyez plusieurs fois sur <kbd>7</kbd> pour lever le robot et plusieurs fois sur <kbd>8</kbd> pour l’abaisser.
+</p>
 
-See the command instruction guide for MuJoCo:
- <p align="center">
-  <img src="../doc/bonne.png" width="900">
+Appuyez sur le bouton <kbd>RESET</kbd> dans le menu à gauche pour réinitialiser la position du robot (assurez-vous que l’élastique est désactivé en appuyant sur <kbd>9</kbd> sur votre clavier).
+
+Consultez le guide des commandes de MuJoCo :
+
+<p align="center">
+  <img src="../doc/bonne.png" width="800">
   <br>
- </p>
+</p>
  
- # Important 
- Here, MuJoCo works exactly as it would be in real life: You should not exit the mujoco page, it works as if you had the robot next to you, just reset the robot each time you launch the deploy.py file for the workshop.
+# Important
+
+Ici, MuJoCo fonctionne exactement comme en conditions réelles : vous ne devez pas fermer la fenêtre MuJoCo. Cela fonctionne comme si vous aviez le robot à côté de vous. Réinitialisez simplement le robot chaque fois que vous lancez le fichier `deploy.py` pendant le workshop, en appuyant sur le bouton reset entouré en rouge dans l’image précédente.
  
 ---
 
-## 2️⃣ Open a second terminal inside the same container
+## 2️⃣ Ouvrir un second terminal dans le même conteneur
 
-On the host machine:
+Sur la machine hôte :
 
-```bash
+```bash id="docker-ps"
 docker ps
 ```
 
-Copy the container name, then run:
+Copiez le nom du conteneur, puis exécutez :
 
-```bash
+```bash id="docker-exec"
 docker exec -it CONTAINER_NAME bash
 ```
 
-Example:
+Exemple :
 
-```bash
+```bash id="docker-exec-example"
 docker exec -it docker-summer-school-rl-run-8a7194d5a1f7 bash
 ```
- <p align="center">
-  <img src="../doc/deploy2.png" width="1100">
+
+<p align="center">
+  <img src="../doc/deploy2.png" width="900">
   <br>
- </p>
+</p>
  
 ---
 
-## 3️⃣ Launch the deployment script
+## 3️⃣ Lancer le script de déploiement
 
-Inside the second Docker terminal:
+Dans le second terminal Docker :
 
-```bash
+```bash id="deploy-launch"
 cd /workspace/SUMMER-SCHOOL-RL/2.Deploy
 
 python Deploy_python/deploy.py
-MAKE SURE THE ROBOT IS LAID DOWN, RESET WITH ELASTIC BAND DISABLED.
 ```
-You should see :
- <p align="center">
-  <img src="../doc/fill.png" width="1100">
-  <br>
- </p>
- 
-Or without the dashboard with with `--debug`:
 
-```bash
+**ASSUREZ-VOUS QUE LE ROBOT EST ALLONGÉ ET RÉINITIALISÉ, AVEC L’ÉLASTIQUE DÉSACTIVÉ.**
+
+Vous devriez voir :
+
+<p align="center">
+  <img src="../doc/fill.png" width="900">
+  <br>
+</p>
+ 
+Ou sans le tableau de bord, avec l’option `--debug` :
+
+```bash id="deploy-debug"
 python Deploy_python/deploy.py --debug
 ```
 
-At the begining, the deploy file does not work well until you complete the workshop. So the robot will just fall after standing up:
+Au début, le fichier de déploiement ne fonctionne pas correctement tant que vous n’avez pas terminé le workshop. Le robot va donc simplement tomber après s’être relevé :
 
- <p align="center">
+<p align="center">
   <img src="../doc/im4.png" width="800">
   <br>
- </p>
+</p>
  
-## 4️⃣ 🚀 Complete the workshop
+## 4️⃣ Réaliser les tâches du TP
 
-This is the end of the preparation. 
-During the summer school week, students will be asked to do the tasks required to train and deploy a policy for the Go2 locomotion.
-When you complete all the tasks, the robot should walk and you should see :
- <p align="center">
-  <img src="../doc/im2.png" width="1100">
+La préparation est maintenant terminée.
+
+Pendant la semaine de la summer school, les étudiants devront réaliser les différentes tâches nécessaires pour entraîner puis déployer une politique de locomotion pour le Go2.
+
+Lorsque vous aurez terminé toutes les tâches, le robot devrait marcher et vous devriez voir :
+
+<p align="center">
+  <img src="../doc/im2.png" width="900">
   <br>
- </p>
+</p>
 
 <table align="center" style="border-collapse:collapse;">
-<th style="width:30%; text-align:center;">
-  <div style="display:inline-block; width:200px;">Deploy file completed</div>
-</th>
-
+  <th style="width:30%; text-align:center;">
+    <div style="display:inline-block; width:200px;">Fichier de déploiement complété</div>
+  </th>
   <tr>
     <td style="width:30%; text-align:center;">
       <img src="../doc/gif3.gif" style="width:600px; display:block; margin:auto;">
     </td>
-
   </tr>
 </table>
-
----
