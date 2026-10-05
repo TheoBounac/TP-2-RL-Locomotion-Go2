@@ -55,6 +55,19 @@ Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement dep
 > docker rmi adriengloria/tutorl:latest
 > ```
 
+## 4️⃣(BIS) Option: vous pouvez aussi construire l'image
+
+```bash
+docker compose -f docker/docker-compose.yml build
+```
+
+> **Note:** The first build can take several minutes (30 min - 1 h) because it installs MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS, and all Python dependencies.
+
+> **Troubleshooting:** If `uv` fails due to a network timeout, increase the HTTP timeout:
+> ```bash
+> export UV_HTTP_TIMEOUT=300s
+> ```
+
 ---
 
 ## 5️⃣ Lancer le conteneur
