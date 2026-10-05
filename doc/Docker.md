@@ -1,6 +1,6 @@
 <h2 align="center">🐳 Installation de Docker</h2>
 
-Ce projet peut être lancé entièrement à l’intérieur du conteneur Docker que vous allez construire.
+Ce projet peut être lancé entièrement à l’intérieur du conteneur Docker que vous allez Télécharger (ou construire en option).
 
 L’image Docker installe automatiquement toutes les dépendances nécessaires pour :
 
