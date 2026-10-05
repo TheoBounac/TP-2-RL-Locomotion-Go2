@@ -61,9 +61,9 @@ Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement dep
 docker compose -f docker/docker-compose.yml build
 ```
 
-> **Note:** The first build can take several minutes (30 min - 1 h) because it installs MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS, and all Python dependencies.
+> **Note :** La première compilation peut prendre plusieurs minutes (30 min - 1 h), car elle installe MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS ainsi que toutes les dépendances Python.
 
-> **Troubleshooting:** If `uv` fails due to a network timeout, increase the HTTP timeout:
+> **Dépannage :** Si `uv` échoue à cause d'un délai d'attente réseau, augmentez le délai HTTP :
 > ```bash
 > export UV_HTTP_TIMEOUT=300s
 > ```
