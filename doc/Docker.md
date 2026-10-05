@@ -1,24 +1,24 @@
-<h2 align="center">🐳 Docker Installation</h2>
+<h2 align="center">🐳 Installation de Docker</h2>
 
-This project can be launched entirely inside the Docker container you are about to build.
+Ce projet peut être lancé entièrement à l’intérieur du conteneur Docker que vous allez construire.
 
-The Docker image automatically installs all dependencies required for both:
+L’image Docker installe automatiquement toutes les dépendances nécessaires pour :
 
-* **Training** (MJLab + MuJoCo Warp)
-* **Deployment** (Unitree SDK2 + CycloneDDS + MuJoCo simulator)
+* **L’entraînement** (MJLab + MuJoCo Warp)
+* **Le déploiement** (Unitree SDK2 + CycloneDDS + simulateur MuJoCo)
 
-No manual installation of MJLab, MuJoCo, CycloneDDS, or the Unitree SDK is required.
+Aucune installation manuelle de MJLab, MuJoCo, CycloneDDS ou du SDK Unitree n’est nécessaire.
 
 ---
 
-## 1️⃣ Install Docker
+## 1️⃣ Installer Docker
 
-Install:
+Installez :
 
 * Docker
 * Docker Compose
 
-Verify the installation:
+Vérifiez l’installation :
 
 ```bash
 docker --version
@@ -27,7 +27,7 @@ docker compose version
 
 ---
 
-## 2️⃣ Clone the repository
+## 2️⃣ Cloner le dépôt
 
 ```bash
 git clone https://github.com/aixhri-summer-school-2026/Tutorial_06_RL_Locomotion.git
@@ -36,38 +36,54 @@ cd SUMMER-SCHOOL-RL
 
 ---
 
-## 3️⃣ Allow Docker to access the graphical display
+## 3️⃣ Autoriser Docker à accéder à l’affichage graphique
 
 ```bash
 xhost +local:docker
 ```
 
-This allows MuJoCo, MJLab, and pygame windows to open correctly from the container.
+Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement depuis le conteneur.
 
 ---
 
-## 4️⃣ Build the Docker image
+## 4️⃣ Construire l’image Docker
 
 ```bash
 docker compose -f docker/docker-compose.yml build
 ```
 
-> **Note:** The first build can take several minutes (30min - 1h) because it installs MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS, and all Python dependencies.
+> **Remarque :** La première construction de l’image peut prendre plusieurs minutes (30 min à 1 h), car elle installe MJLab, MuJoCo Warp, Unitree SDK2, CycloneDDS ainsi que toutes les dépendances Python.
 
-> **Troubleshooting:** If uv fails with a network timeout, increase the HTTP timeout:
-export UV_HTTP_TIMEOUT=300s
+> **Dépannage :** Si `uv` échoue à cause d’un délai d’attente réseau, augmentez le délai HTTP :
+>
+> ```bash
+> export UV_HTTP_TIMEOUT=300s
+> ```
+
 ---
 
-## 5️⃣ Launch the container
+## 5️⃣ Lancer le conteneur
 
 ```bash
 docker compose -f docker/docker-compose.yml run --rm tp-rl-2rm
 ```
 
-> **Troubleshooting:** If Docker cannot access the NVIDIA GPU, test it with: ```docker run --rm --gpus all nvidia/cuda:12.4.1-base-ubuntu22.04 nvidia-smi```. If this command returns an error, install and configure the NVIDIA Container Toolkit:```sudo apt update``` + ```sudo apt install -y nvidia-container-toolkit``` + ```sudo nvidia-ctk runtime configure --runtime=``` + ```sudo systemctl restart docker```
+> **Dépannage :** Si Docker ne parvient pas à accéder au GPU NVIDIA, testez-le avec :
+>
+> ```bash
+> docker run --rm --gpus all nvidia/cuda:12.4.1-base-ubuntu22.04 nvidia-smi
+> ```
+>
+> Si cette commande retourne une erreur, installez et configurez NVIDIA Container Toolkit :
+>
+> ```bash
+> sudo apt update
+> sudo apt install -y nvidia-container-toolkit
+> sudo nvidia-ctk runtime configure --runtime=docker
+> sudo systemctl restart docker
+> ```
 
-
-You should now be inside the Docker container:
+Vous devriez maintenant être à l’intérieur du conteneur Docker :
 
 ```bash
 root@xxxxx:/workspace/SUMMER-SCHOOL-RL#
@@ -75,5 +91,4 @@ root@xxxxx:/workspace/SUMMER-SCHOOL-RL#
 
 ---
 
-You can now test Part 1 and Part 2 to make sure everything works as expected.
-
+Vous pouvez maintenant tester la Partie 1 et la Partie 2 afin de vérifier que tout fonctionne correctement.
