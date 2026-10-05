@@ -50,6 +50,7 @@ RUN pip install --no-cache-dir uv
 RUN uv --version
 
 RUN git clone https://github.com/mujocolab/mjlab.git /opt/mjlab
+RUN cd /opt/mjlab && git checkout v1.5.0
 RUN cd /opt/mjlab && uv sync
 RUN cd /opt/mjlab && uv pip install -e /workspace/SUMMER-SCHOOL-RL/1.Training
 RUN cp -r /workspace/SUMMER-SCHOOL-RL/1.Training/src/unitree_go2_velocity \
