@@ -12,7 +12,7 @@ from mjlab.utils.spec_config import CollisionCfg
 ##
 # MJCF and assets.
 ##
-
+##test
 _HERE = Path(__file__).parent
 
 # Path to the main MJCF (lives under the xmls subfolder).
