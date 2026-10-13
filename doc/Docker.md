@@ -27,7 +27,19 @@ docker compose version
 
 
 
-## 2️⃣ Cloner le dépôt
+## 2️⃣ Installer NVIDIA Container ToolKit
+
+Il est nécessaire d’installer le `NVIDIA Container Toolkit` afin de permettre au daemon Docker d’accéder aux GPU NVIDIA.
+
+Suivre la documentation officielle fournie par NVIDIA : [container-toolkit/latest/install-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+
+**Important :**
+
+Ne pas oublier de suivre les étapes de configuration, notamment la [configuration du daemon Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker), puis de redémarrer Docker (`sudo systemctl restart docker`).
+
+
+
+## 3️⃣ Cloner le dépôt
 
 ```bash
 git clone https://github.com/TheoBounac/TP-2-RL-Locomotion-Go2
@@ -36,7 +48,7 @@ cd TP-2-RL-Locomotion-Go2
 
 
 
-## 3️⃣ Autoriser Docker à accéder à l’affichage graphique
+## 4️⃣ Autoriser Docker à accéder à l’affichage graphique
 
 ```bash
 xhost +local:docker
@@ -55,7 +67,9 @@ Cela permet aux fenêtres MuJoCo, MJLab et pygame de s’ouvrir correctement dep
 > docker rmi adriengloria/tutorl:latest
 > ```
 
-## 4️⃣(BIS) Option: vous pouvez aussi construire l'image
+
+
+## 5️⃣ (BIS) Option: vous pouvez aussi construire l'image
 
 ```bash
 docker compose -f docker/docker-compose.yml build
@@ -70,7 +84,7 @@ docker compose -f docker/docker-compose.yml build
 
 
 
-## 5️⃣ Lancer le conteneur
+## 6️⃣ Lancer le conteneur
 
 ```bash
 docker compose -f docker/docker-compose.yml run --rm tp-rl-2rm
