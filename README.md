@@ -107,12 +107,6 @@ Dans le conteneur, allez dans l’espace de travail MJLab :
 ```bash
 cd /opt/mjlab
 ```
-
-Vous devriez voir :
-<p align="center">
-  <img src="doc/docker1.png" width="800">
-</p>
-
 ---
 
 Lancez l’environnement Go2 avec une politique aléatoire :
