@@ -107,7 +107,7 @@ Dans le conteneur, allez dans l’espace de travail MJLab :
 ```bash
 cd /opt/mjlab
 ```
-
+La suite des scripts à lancer nécessite de dé-commenter certaines parties pendant le tutoriel.
 Lancez l’environnement Go2 avec une politique aléatoire :
 
 ```bash
