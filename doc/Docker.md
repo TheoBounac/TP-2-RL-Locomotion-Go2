@@ -65,7 +65,7 @@ docker compose -f docker/docker-compose.yml build
 
 > **Dépannage :** Si `uv` échoue à cause d'un délai d'attente réseau, augmentez le délai HTTP :
 > ```bash
-> export UV_HTTP_TIMEOUT=300s
+> export UV_HTTP_TIMEOUT=300
 > ```
 
 
