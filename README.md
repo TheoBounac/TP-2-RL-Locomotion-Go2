@@ -107,7 +107,7 @@ Dans le conteneur, allez dans l’espace de travail MJLab :
 ```bash
 cd /opt/mjlab
 ```
-La suite des scripts à lancer nécessite de dé-commenter certaines parties pendant le tutoriel.
+
 Lancez l’environnement Go2 avec une politique aléatoire :
 
 ```bash
@@ -122,7 +122,7 @@ Vous devriez voir :
 
 ---
 
-Vous pouvez ensuite essayer de lancer le script d’entraînement, qui est incomplet (sections à dé-commenter pendant le tutoriel).
+Vous pouvez ensuite essayer de lancer le script d’entraînement :
 
 Lancez l’entraînement :
 
