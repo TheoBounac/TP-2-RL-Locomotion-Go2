@@ -1,4 +1,4 @@
-"""Unitree Go2 constants. File adapted from Go2 unitree_rl_mjlab (https://github.com/unitreerobotics/unitree_rl_mjlab)"""
+"""Unitree Go2 constants. File adapted from G02 unitree_rl_mjlab (https://github.com/unitreerobotics/unitree_rl_mjlab)"""
 
 from pathlib import Path
 
@@ -12,7 +12,7 @@ from mjlab.utils.spec_config import CollisionCfg
 ##
 # MJCF and assets.
 ##
-##test
+
 _HERE = Path(__file__).parent
 
 # Path to the main MJCF (lives under the xmls subfolder).
@@ -79,19 +79,20 @@ GO2_ACTUATOR_CALF = BuiltinPositionActuatorCfg(
 # Keyframes.
 ##
 
-# TODO(Exercise 1 - Init State): define INIT_STATE — the robot's default
-# standing pose. Fill in an EntityCfg.InitialStateCfg with:
-#   - pos=(0.0, 0.0, 0.32)
-#   - joint_pos: regex -> angle (rad):
-#       "^F[LR]_thigh_joint$": 0.8
-#       "^R[LR]_thigh_joint$": 1.0
-#       ".*calf_joint": -1.5
-#       ".*R_hip_joint": 0.1
-#       ".*L_hip_joint": -0.1
-#   - joint_vel={".*": 0.0}
+# TODO(Exercise 1 - Init State):
 
-# INIT_STATE = EntityCfg.InitialStateCfg(.. Arguments here ..) # Complete this line with the correct arguments as per the TODO comment above.
-raise NotImplementedError("TODO: implement INIT_STATE (see comment above)")
+INIT_STATE = EntityCfg.InitialStateCfg(
+  pos=(0.0, 0.0, 0.32),
+  joint_pos={
+    "^F[LR]_thigh_joint$": 0.8,
+    "^R[LR]_thigh_joint$": 1.0,
+    ".*calf_joint": -1.5,
+    ".*R_hip_joint": 0.1,
+    ".*L_hip_joint": -0.1,
+  },
+  joint_vel={".*": 0.0},
+)
+
 
 ##
 # Collision config.
